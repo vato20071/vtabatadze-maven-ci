@@ -3,7 +3,11 @@
  */
 public class SumOfNumbers {
 
-    public static void main(String args[]) {
-        System.out.println("Check success in Travis");
+    public long calculateSum(int n) {
+        long sum = 0;
+        for (int i=0; i<=n; i++) {
+            sum += (long) i;
+        }
+        return sum;
     }
 }
